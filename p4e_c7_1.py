@@ -1,0 +1,5 @@
+fname = input("Enter file name: ")
+fh = open(fname)
+line = fh.read()
+print((line.upper()).rstrip())
+input('Press Enter to Quit')
